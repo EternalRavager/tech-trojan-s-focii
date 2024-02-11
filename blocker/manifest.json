@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Website Blocker",
+    "version": "1.0",
+    "description": "Block websites with whitelisting functionality.",
+    "permissions": [
+      "storage",
+      "webRequest",
+      "webRequestBlocking",
+      "tabs",
+      "<all_urls>"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true 
+    },
+    "options_page": "options.html",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
